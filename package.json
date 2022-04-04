@@ -12,5 +12,25 @@
     "live-server": "^1.2.1",
     "webpack": "^5.71.0",
     "webpack-cli": "^4.9.2"
-  }
+  },
+  "name": "modern_javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "serve": "npm run watch & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belliraxia/modern-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belliraxia/modern-javascript/issues"
+  },
+  "homepage": "https://github.com/belliraxia/modern-javascript#readme",
+  "description": ""
 }

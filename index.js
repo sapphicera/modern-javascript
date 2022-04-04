@@ -21,7 +21,7 @@ console.log(derivative("x^2 + x", "x"));
 var name = "Bob",
   time = "today";
 console.log(`Hello ${name}, how are you ${time}?`);
-console.log(`i love finni!`);
+console.log(`i love finni! test on live server!`);
 
 // vue
 var App = {
