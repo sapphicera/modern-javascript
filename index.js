@@ -17,6 +17,11 @@ import { atan2, chain, derivative, e, evaluate, log, pi, pow, round, sqrt } from
 
 console.log(derivative("x^2 + x", "x"));
 
+// testing babel
+var name = "Bob",
+  time = "today";
+console.log(`Hello ${name}, how are you ${time}?`);
+
 // vue
 var App = {
   data: function () {
