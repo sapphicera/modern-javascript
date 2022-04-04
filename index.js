@@ -1,4 +1,8 @@
-/* global Vue, axios */
+/* global Vue, axios, moment */
+
+var moment = require("moment");
+
+console.log(moment().format("MMM Do YY"));
 
 var App = {
   data: function () {
